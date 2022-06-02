@@ -3,7 +3,21 @@ entries:
   users:
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2022-06-02T17:40:09.991466389Z"
+    created: "2022-06-02T17:48:37.398542304Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.1.3
+    description: A Helm chart for deploying Knag
+    digest: 24e8b7622d8a878d56ce9bb8e232a7a6af1df93b72674934e8a179ed2bd84ba9
+    name: users
+    type: application
+    urls:
+    - users-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: 0.3.3
+    created: "2022-06-02T17:48:37.391787364Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +31,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2022-06-02T17:40:09.985409971Z"
+    created: "2022-06-02T17:48:37.386694759Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -29,4 +43,4 @@ entries:
     urls:
     - users-0.2.0.tgz
     version: 0.2.0
-generated: "2022-06-02T17:40:09.977754594Z"
+generated: "2022-06-02T17:48:37.37951141Z"
