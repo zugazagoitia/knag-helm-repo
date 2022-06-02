@@ -22,6 +22,8 @@ jobs:
       - name: Update Index
         run: |
           helm repo index .
+          git config --global user.email "chartbot@zugazagoitia.com"
+          git config --global user.name "knag-charts[bot]"
           git add index.yaml
           git commit -m "Update chart index"
           git push
