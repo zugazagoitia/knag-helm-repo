@@ -3,7 +3,21 @@ entries:
   users:
   - apiVersion: v2
     appVersion: 0.3.5
-    created: "2022-06-03T09:40:51.056864538Z"
+    created: "2022-06-03T10:24:46.871813695Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.1.3
+    description: A Helm chart for deploying Knag
+    digest: 28701893df81f7905bd40c16579328e12a86488f201c02191aaea3f8a045fc24
+    name: users
+    type: application
+    urls:
+    - users-0.2.6.tgz
+    version: 0.2.6
+  - apiVersion: v2
+    appVersion: 0.3.5
+    created: "2022-06-03T10:24:46.865360892Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +31,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 0.3.4
-    created: "2022-06-03T09:40:51.052010862Z"
+    created: "2022-06-03T10:24:46.859420289Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -31,7 +45,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2022-06-03T09:40:51.045400558Z"
+    created: "2022-06-03T10:24:46.852344286Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -45,7 +59,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2022-06-03T09:40:51.040577682Z"
+    created: "2022-06-03T10:24:46.843988982Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -59,7 +73,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2022-06-03T09:40:51.034576587Z"
+    created: "2022-06-03T10:24:46.837564979Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -73,7 +87,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2022-06-03T09:40:51.02971051Z"
+    created: "2022-06-03T10:24:46.829778376Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -85,4 +99,4 @@ entries:
     urls:
     - users-0.2.0.tgz
     version: 0.2.0
-generated: "2022-06-03T09:40:51.023385111Z"
+generated: "2022-06-03T10:24:46.822979473Z"
