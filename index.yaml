@@ -2,8 +2,22 @@ apiVersion: v1
 entries:
   users:
   - apiVersion: v2
+    appVersion: 0.4.2
+    created: "2022-06-03T17:19:33.083077635Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.1.3
+    description: A Helm chart for deploying Knag
+    digest: 9de6acf22684f86fe510c8c1187b5c6229c8b6064b495bb589ec9ee120d698ac
+    name: users
+    type: application
+    urls:
+    - users-0.3.3.tgz
+    version: 0.3.3
+  - apiVersion: v2
     appVersion: 0.4.1
-    created: "2022-06-03T16:52:49.859784709Z"
+    created: "2022-06-03T17:19:33.077426664Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +31,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2022-06-03T16:52:49.852619365Z"
+    created: "2022-06-03T17:19:33.070899282Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -31,7 +45,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2022-06-03T16:52:49.846102334Z"
+    created: "2022-06-03T17:19:33.064911506Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -45,7 +59,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.3.5
-    created: "2022-06-03T16:52:49.837344457Z"
+    created: "2022-06-03T17:19:33.059398737Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -59,7 +73,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 0.3.5
-    created: "2022-06-03T16:52:49.830972529Z"
+    created: "2022-06-03T17:19:33.052631952Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -73,7 +87,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 0.3.4
-    created: "2022-06-03T16:52:49.824489499Z"
+    created: "2022-06-03T17:19:33.047195983Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -87,7 +101,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2022-06-03T16:52:49.81660744Z"
+    created: "2022-06-03T17:19:33.040524099Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -101,7 +115,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2022-06-03T16:52:49.808722681Z"
+    created: "2022-06-03T17:19:33.034116018Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -115,7 +129,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2022-06-03T16:52:49.80222715Z"
+    created: "2022-06-03T17:19:33.028125443Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -129,7 +143,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2022-06-03T16:52:49.79375568Z"
+    created: "2022-06-03T17:19:33.020720249Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -141,4 +155,4 @@ entries:
     urls:
     - users-0.2.0.tgz
     version: 0.2.0
-generated: "2022-06-03T16:52:49.786425332Z"
+generated: "2022-06-03T17:19:33.014573072Z"
