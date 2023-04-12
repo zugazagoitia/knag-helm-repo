@@ -14,6 +14,6 @@
   Helm Repository
 </h3>
 
-This repository serves as a helm repo under the url ```https://helm.knag.tech```, knag application charts will be published here.
+This repository serves as a helm repo under the url ```https://helm.knag.software```, knag application charts will be published here.
 
 
